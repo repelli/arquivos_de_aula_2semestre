@@ -1,0 +1,116 @@
+<!DOCTYPE html>  <!--descreve o tipo de documento-->
+<html lang="pt-BR"><!--inicio do html com a linguagem-->
+<head> <!--configurações da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--responsabilidade-->
+    <title>Meu primeiro HTML</title> <!--titulo da pagina-->
+</head>
+<body>
+    <!--todo conteúdo da página -->
+    <h1 id="trem">TRENS DA CPTM</h1>
+    <h2>Série 5000 </h2>
+    <h3>Série 2100</h3>
+    <h4>Série 3000</h4>
+    <h5>Série 2070</h5>
+    <h6>Série 7000</h6>
+    <h6>Série 8000</h6>
+    <h5>Série 9000</h5>
+    <p> Vendo algumas séries de trens.</p>
+    <p> Imagens de <em>trens</em></p>
+    <p> em operacao na <strong>CPTM </strong></p>
+    <p>SO<sub>3</sub>O</p>
+    <p> 10 <sup>3</sup> = 1000</p> 
+    <!-- ctr + ;, ctr + K + C -->
+     <a href="#sobre">Sobre</a><br> <!--links-->
+     <a href="C:\Users\ferna\Desktop\html\AULA 01_Artigo_Revista Você RH-Fev Março 25_seção 18.pdf" download> Baixar o PDF. </a><!--baixar arquivos-->
+     <br>
+     <img  src="C:\Users\ferna\Desktop\html\5000.jpg" alt="Trem série 5000" width="300px" height="200px"> <!--inserir figuras-->
+     <figcaption><b>Serie 5000</b></figcaption><br><br>
+     <img src="C:\Users\ferna\Desktop\html\3000.jpg"" alt="Trem série 3000"  width="300px" height="200px">
+     <figcaption><b>Serie 3000</b></figcaption><br><br>
+     <figure>
+        <img src="C:\Users\ferna\Desktop\html\2100.jpg" alt="Olha o trem mais uma vez" height="200">
+        <figcaption><b>Serie 2100</b></figcaption><br><br>
+        <img src=""C:\Users\24714193805\Desktop\html\2070.jpg"" alt="Olha o trem mais uma vez" width="300px"  height="200">
+        <figcaption><b>Serie 2070</b></figcaption><br><br>
+        <img src="C:\Users\ferna\Desktop\html\7000.jpg" alt="Olha o trem mais uma vez" width="300px" height="200">
+        <figcaption><b>Serie 7000</b></figcaption><br><br>
+        <img src="C:\Users\ferna\Desktop\html\8000.jpg" alt="Olha o trem mais uma vez" width="300px" height="200">
+        <figcaption><b>Serie 8000</b></figcaption><br><br>
+        <img src="C:\Users\ferna\Desktop\html\9000.jpg" alt="Olha o trem mais uma vez" width="300px" height="200">
+        <figcaption><b>Serie 9000</b></figcaption><br><br>
+
+     </figure>
+    <video controls width="480"> <!--habilita os botoes de controe de video-->
+                <source src="apresentacao.mp4" type="video/mp4">
+                
+
+    </video><br><br>
+
+
+    <!--video youtube-->
+   
+    <iframe width="480" height="315"
+    src="https://www.youtube.com/embed/4nPDxZaBE3M">
+   
+    </iframe
+
+      
+
+
+
+
+    <!--listas-->
+    <!--listas nao ordenadas-->
+
+    <ul>
+        <li>Série 5000</li>
+        <li>Série 3000</li>
+        <li>Série 2100</li>
+    </ul>
+
+    <!--lista ordenada-->
+ <ol>
+    <li>Série 7000</li>
+    <li>Série 8000</li>
+    <li>Série 9000</li>
+ </ol>
+
+<!--formulários-->
+<form>
+  <label for="nome">Nome</label>
+  <input id="nome" type="text" required placeholder="Insira seu nome"><br> <!--quando clicar no nome joga na caixa do input-->
+  
+  <label for="">Email</label>
+  <input type="email" name="" id="" placeholder="email@email.com"><br>
+  <label >Tipo</label><br>
+  <label>
+    <input type="radio" name="" id="" checked>
+    Passageiro
+  </label><br>
+  <label>
+    <input type="radio" name="" id="">
+    Condutor
+  </label><br>
+  <label for="">Interesses</label><br>
+  <select name="" id="" multiple> 
+    <option >Série 5000</option>
+    <option>Série 3000</option>
+    <option>Série 2100</option>
+    <option>Série 2070</option>
+    <option>Série 7000</option>
+    <option>Série 8000</option>
+    <option>Série 9000</option>
+  </select><br>
+
+  <label for="arquivo"> Anexar fotos de trem</label>
+   <input type="file" name="" id="arquivo"><br>
+   <label for="senha">Senha</label><br>
+   <input type="password" name="" id="senha" required><br><br>
+   <button type="submit">Enviar</button>
+  
+
+</form>
+
+</body>
+</html>
